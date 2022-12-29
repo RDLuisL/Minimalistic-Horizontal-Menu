@@ -1,0 +1,54 @@
+:root {
+    --font1: verdana;
+    --bgcolor1: #D0630B;
+    --bgcolor2: #E6911C;
+    --bgcolor3: #208FBB;
+    --bgcolor4: #1B6AA0;
+    --bgcolor5: #183546;
+    --bgcolor6: #162837;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: var(--font1);
+}
+
+header {
+    margin: 100px auto;
+    width: 1200px;
+    height: 230px;
+    
+}
+
+div.contenedor {
+    width: 200px;
+    height: 230px;
+    float: left;
+}
+
+div#uno{
+    background-color: var(--bgcolor1);
+    border-radius: 20px 0px 0px 20px;
+}
+
+div#dos {
+    background-color: var(--bgcolor2);
+}
+
+div#tres {
+    background-color: var(--bgcolor3);
+}
+
+div#cuatro {
+    background-color: var(--bgcolor4);
+}
+
+div#cinco {
+    background-color: var(--bgcolor5);
+}
+
+div#seis {
+    background-color: var(--bgcolor6);
+    border-radius: 0px 20px 20px 0px;
+}
